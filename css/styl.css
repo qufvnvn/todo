@@ -1,0 +1,27 @@
+body {
+  margin: 20px 20px 20px 20px;
+}
+.title {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: strong;
+}
+.add {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+.add input {
+  width: 500px;
+  height: 30px;
+  font-size: 16px;
+}
+.add img {
+  width: 30px;
+  margin-left: 10px;
+}
+.list .count {
+  margin-bottom: 20px;
+}
+.emty {
+}

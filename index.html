@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reset-css@4.0.1/reset.min.css"
+    />
+    <link rel="stylesheet" href="./css/styl.css" />
+    <script type="text/javascript" src="./main.js"></script>
+  </head>
+  <body>
+    <div class="title">Todo List</div>
+    <main>
+      <section class="add">
+        <div class="todo">
+          <input type="text" placeholder="할 일을 입력해주세요." />
+        </div>
+        <div class="btn">
+          <img src="./img/add.png" alt="add" />
+        </div>
+      </section>
+      <section class="list">
+        <div class="count">총 0개</div>
+        <div class="emty">등록된 할 일이 없습니다.</div>
+        <section class="list">
+          <ul id="todoList"></ul>
+        </section>
+      </section>
+    </main>
+  </body>
+</html>
