@@ -12,23 +12,32 @@
     <script type="text/javascript" src="./main.js"></script>
   </head>
   <body>
-    <div class="title">Todo List</div>
-    <main>
-      <section class="add">
-        <div class="todo">
-          <input type="text" placeholder="할 일을 입력해주세요." />
-        </div>
-        <div class="btn">
-          <img src="./img/add.png" alt="add" />
-        </div>
-      </section>
-      <section class="list">
-        <div class="count">총 0개</div>
-        <div class="emty">등록된 할 일이 없습니다.</div>
-        <section class="list">
-          <ul id="todoList"></ul>
+    <div class="box">
+      <div class="title">Todo List</div>
+      <main>
+        <!-- todo 입력 필드 -->
+        <section class="add">
+          <div class="todo">
+            <input type="text" placeholder="할 일을 입력해주세요." required />
+          </div>
+          <div class="btn_add">
+            <img src="./img/add.png" alt="add" />
+          </div>
         </section>
-      </section>
-    </main>
+        <section class="list">
+          <!-- 등록된 할일 count -->
+          <div class="count">총 0개</div>
+          <!-- empty case -->
+          <div class="empty">등록된 할 일이 없습니다.</div>
+          <!-- list 노출 -->
+          <div class="todoList">
+            <!-- 항목이 추가될 영역 -->
+          </div>
+          <div class="remainingCount">
+            <!-- 남을 할일 개수를 표시하는 영억 -->
+          </div>
+        </section>
+      </main>
+    </div>
   </body>
 </html>

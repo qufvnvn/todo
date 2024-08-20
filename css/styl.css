@@ -1,27 +1,90 @@
 body {
-  margin: 20px 20px 20px 20px;
+  margin: 40px 0 0 50px;
 }
+
 .title {
   margin-bottom: 20px;
-  font-size: 24px;
-  font-weight: strong;
+  font-size: 30px;
+  font-weight: bold;
 }
+
 .add {
   margin-bottom: 20px;
   display: flex;
   align-items: center;
 }
+
 .add input {
   width: 500px;
   height: 30px;
+  font-size: 20px;
+  border-width: 2px;
+  border-top-style: none;
+  border-right-style: none;
+  border-left-style: none;
+  border-color: #adb5bd;
+  margin-top: 20px;
+  margin-bottom: 12px;
+}
+
+.add .btn_add img {
+  width: 35px;
+  margin-left: 10px;
+  background-color: #adb5bd;
+  border-radius: 7px;
+}
+
+.add .btn_add img:hover {
+  cursor: pointer;
+  transform: scale(1.1); /* 이미지 크기를 1.1배로 확대 */
+}
+
+.list .count {
+  margin-top: 15px;
+  margin-bottom: 12px;
+  color: gray;
+  font-size: 15px;
+}
+
+.list .empty {
+  color: gray;
+  margin-top: 20px;
   font-size: 16px;
 }
-.add img {
-  width: 30px;
-  margin-left: 10px;
+
+.list .todoList {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 16px;
 }
-.list .count {
-  margin-bottom: 20px;
+
+.list .todoItem {
+  display: flex; /* 가로로 나열하기 위해 flex 사용 */
+  align-items: center;
+  margin-bottom: 10px; /* 리스트 항목 간 간격 */
 }
-.emty {
+
+.list .todoItem .box {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.list .todoItem span {
+  margin-right: 5px; /* 텍스트와 아이콘 간의 최소 여백 */
+}
+
+.list .todoItem img {
+  width: 22px;
+  margin-left: 0; /* 아이콘 사이 여백 최소화 */
+}
+
+.list .todoItem img:hover {
+  cursor: pointer;
+  transform: scale(1.1); /* 이미지 크기를 1.1배로 확대 */
+}
+
+.list .remainingCount {
+  font-size: 15px;
+  margin-top: 10px;
 }
