@@ -9,7 +9,7 @@ body {
 }
 
 .add {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   display: flex;
   align-items: center;
   line-height: 0;
@@ -40,19 +40,17 @@ body {
 
 .list .count {
   margin-top: 20px;
-  margin-bottom: 12px;
+  margin-bottom: 20px;
   color: gray;
   font-size: 15px;
 }
 
 .list .empty {
   color: gray;
-  margin-top: 30px;
   font-size: 16px;
 }
 
 .list .todoList {
-  margin-top: 30px;
   margin-bottom: 10px;
   font-size: 20px;
 }
