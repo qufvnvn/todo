@@ -40,7 +40,7 @@ body {
 }
 
 .list .count {
-  margin-top: 15px;
+  margin-top: 20px;
   margin-bottom: 12px;
   color: gray;
   font-size: 15px;
@@ -48,14 +48,14 @@ body {
 
 .list .empty {
   color: gray;
-  margin-top: 20px;
+  margin-top: 30px;
   font-size: 16px;
 }
 
 .list .todoList {
-  margin-top: 20px;
+  margin-top: 30px;
   margin-bottom: 10px;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .list .todoItem {
@@ -71,12 +71,12 @@ body {
 }
 
 .list .todoItem span {
-  margin-right: 5px; /* 텍스트와 아이콘 간의 최소 여백 */
+  margin-right: 10px;
 }
 
 .list .todoItem img {
   width: 22px;
-  margin-left: 0; /* 아이콘 사이 여백 최소화 */
+  margin-left: 5px;
 }
 
 .list .todoItem img:hover {
@@ -85,6 +85,7 @@ body {
 }
 
 .list .remainingCount {
-  font-size: 15px;
-  margin-top: 10px;
+  font-size: 18px;
+  margin-top: 30px;
+  font-weight: bold;
 }
