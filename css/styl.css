@@ -12,26 +12,25 @@ body {
   margin-bottom: 20px;
   display: flex;
   align-items: center;
+  line-height: 0;
 }
 
 .add input {
   width: 500px;
   height: 30px;
-  font-size: 20px;
+  font-size: 18px;
   border-width: 2px;
   border-top-style: none;
   border-right-style: none;
   border-left-style: none;
   border-color: #adb5bd;
-  margin-top: 20px;
-  margin-bottom: 12px;
 }
 
 .add .btn_add img {
   width: 35px;
   margin-left: 10px;
   background-color: #adb5bd;
-  border-radius: 7px;
+  border-radius: 5px;
 }
 
 .add .btn_add img:hover {
@@ -85,7 +84,8 @@ body {
 }
 
 .list .remainingCount {
-  font-size: 18px;
+  font-size: 15px;
   margin-top: 30px;
   font-weight: bold;
+  color: #8d9093;
 }
